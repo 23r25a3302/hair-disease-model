@@ -10,7 +10,8 @@ import numpy as np
 st.text(f"TensorFlow version: {tf.__version__}")
 
 # Download the model if not present
-MODEL_URL = 'https://huggingface.co/ravikanth27/hair-disease-model/resolve/main/Hair_Disease.h5'
+# MODEL_URL = 'https://huggingface.co/ravikanth27/hair-disease-model/resolve/main/Hair_Disease.h5'
+MODEL_URL = 'https://huggingface.co/ravikanth27/hair-disease-keras/resolve/main/Hair_Disease.keras'
 MODEL_PATH = 'Hair_Disease.h5'
 
 if not os.path.exists(MODEL_PATH):
